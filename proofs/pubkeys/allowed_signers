@@ -1,0 +1,11 @@
+# allowed_signers — firmantes permitidos (formato ssh-keygen -Y).
+#
+# A fecha de v1.0 NO hay firmantes reales publicados (NO DATA), por eso todas las
+# líneas están comentadas. verify_pow.sh sale 0 mientras raw/ esté vacío; en cuanto
+# se publique la primera prueba, este fichero DEBE tener la clave real del firmante.
+#
+# Formato (una línea por firmante):
+#   <principal> namespaces="codice-emancipacion-atomica" ssh-ed25519 AAAA...clave... comentario
+#
+# Ejemplo (sustituir por la clave pública real de proofs/pubkeys/soberano.pub):
+# soberano@codice namespaces="codice-emancipacion-atomica" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA...REEMPLAZAR... soberano@codice

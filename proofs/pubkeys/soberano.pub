@@ -1,0 +1,13 @@
+# PLACEHOLDER — a fecha de v1.0 NO hay clave de firma publicada (NO DATA).
+#
+# Este fichero contendrá la PARTE PÚBLICA de la clave Ed25519 con la que el
+# soberano firma los manifiestos de pruebas. Es una clave de FIRMA/auth, NUNCA
+# una clave de firma de valor.
+#
+# Generarla (la privada NUNCA se sube al repo):
+#   ssh-keygen -t ed25519 -C "soberano@codice" -f soberano_ed25519
+#
+# Luego:
+#   1. Copia el contenido de soberano_ed25519.pub aquí (una sola línea ssh-ed25519 ...).
+#   2. Añade su línea correspondiente en pubkeys/allowed_signers.
+#   3. Guarda soberano_ed25519 (privada) fuera del repo, protegida.

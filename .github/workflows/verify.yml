@@ -1,0 +1,22 @@
+name: verify
+
+# El manifiesto se somete a la misma disciplina que el código: cada push y cada PR
+# recalcula hashes y verifica firmas. Si una prueba no verifica, el build rompe.
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify-proofs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # bash, coreutils y ssh-keygen ya vienen en ubuntu-latest. `ots` NO se instala
+      # a propósito: la capa OpenTimestamps hace SKIP ruidoso, no falla el build por
+      # su ausencia. Si en el futuro se quiere verificar precedencia en CI, añadir
+      # aquí `pip install opentimestamps-client` y el skip pasará a verificación real.
+      - name: Verify proofs — SHA-256 + Ed25519 (+ OpenTimestamps si está)
+        run: |
+          chmod +x proofs/verify_pow.sh
+          ./proofs/verify_pow.sh
