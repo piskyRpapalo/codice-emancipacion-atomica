@@ -9,11 +9,17 @@ es más creíble que uno que finge no haberlos tenido.
 Primera versión publicada. Los cambios respecto al borrador privado son correcciones
 de fondo, no de estilo:
 
-- **Afirmación TRNG cortada (era falsa).** El borrador afirmaba que el carbono es el
-  único generador de aleatoriedad (TRNG). Es falso: existen TRNG de hardware (ruido
-  térmico, osciladores en anillo, RNG cuántico). Se reescribe PARTE I sobre la
-  **Teleología Situada (S-TRNG)**: el dato físico vale por la *intención situada* que
-  lo generó, no por su aleatoriedad ni su precisión. PARTE I converge así con el Epílogo.
+- **Afirmación TRNG cortada (era falsa), y su primer reemplazo también.** El borrador
+  afirmaba que el carbono es el único generador de aleatoriedad (TRNG). Es falso: existen
+  TRNG de hardware (ruido térmico, osciladores en anillo, decaimiento radiactivo, RNG
+  cuántico) que superan al humano. Un primer arreglo lo reencuadró como "entropía/teleología
+  situada (S-TRNG)"; ese término también se **descarta**, porque nombrar "entropía" lo que
+  hace a un dato *no* aleatorio invierte la afirmación y la expone a un defeater trivial (un
+  modelo mejor la llevaría a cero). PARTE I se reescribe como **Anclaje del Carbono**: el
+  nodo de carbono no aporta entropía, aporta tres propiedades que ningún generador de ruido
+  tiene — información mutua con un marco inaccesible, costosidad infalsificable (Szabo,
+  Zahavi) y **asunción de consecuencia** (soportar el coste de estar equivocado). Es esta
+  última, no la aleatoriedad, la que ancla IronClaw.
 
 - **Cláusula del 99.9% eliminada (era una puerta trasera en IronClaw).** El borrador
   incluía una "Paradoja de Optimización II" con "Decibelios de Supervivencia" que

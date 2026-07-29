@@ -30,8 +30,8 @@ with a public triple — **SHA-256** (integrity), **Ed25519** (authorship), **Op
 party.
 
 **Scaffolding fading.** Continuous learning is a condition of operation, not a suggestion:
-a node that stops generating situated (teleological) signal decays toward isolation. The
-support withdraws as competence rises.
+a node that stops producing the costly, consequence-bearing human signal that anchors the
+system decays toward isolation. The support withdraws as competence rises.
 
 The claim the repository makes about itself is deliberately narrow: **this is philosophy
 that compiles, not an essay.** The theses are not original in isolation — their genealogy

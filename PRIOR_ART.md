@@ -24,15 +24,34 @@ requiere fricción; las condiciones que dificultan la práctica mejoran la reten
 · *diverge* — Bjork trata la dificultad como palanca de memoria; aquí la fricción del
 carbono es condición de supervivencia del sistema (sin fricción, el bucle se cierra).
 
-## Tesis: la teleología del dato / colapso por datos sintéticos
+## Tesis: el anclaje del dato / colapso por datos sintéticos
 
 **Ilia Shumailov et al. — *The Curse of Recursion* (model collapse)** · *establece* —
 un modelo entrenado recursivamente sobre su propia salida sintética degrada y colapsa;
 el anclaje en datos reales es necesario. · *toma* — que el dato humano/físico es el
 ancla contra la deriva del modelo. · *diverge* — Shumailov lo explica como pérdida de
-diversidad estadística (colas de la distribución); este Códice reencuadra el ancla como
-*intención situada* (S-TRNG): el valor del dato no es su diversidad, sino la teleología
-biológica que lo generó.
+diversidad estadística (colas de la distribución); este Códice reencuadra el ancla no
+como diversidad ni como aleatoriedad, sino como **información mutua con un marco que el
+silicio no habita**: el dato del carbono vale por su correlación con el mundo físico,
+biológico y social, no por su entropía.
+
+## Tesis: costosidad infalsificable / señal costosa
+
+**Nick Szabo — *unforgeable costliness*** · *establece* — el valor de una prueba (y del
+dinero-mercancía, y de la prueba de trabajo) descansa en que sea cara de producir y
+barata de verificar; el coste hace la señal difícil de falsificar. · *toma* — que la
+firma humana es creíble porque es cara (tiempo metabólico, coste de oportunidad,
+deliberación), no porque sea impredecible. · *diverge* — Szabo aplica la costosidad al
+dinero y a los contratos; este Códice la aplica al *lazo de control*: la firma humana es
+la prueba de trabajo que la máquina no puede abaratar a cero sin romper IronClaw.
+
+**Amotz Zahavi — principio del hándicap / señalamiento costoso** · *establece* — en
+biología, una señal es honesta cuando es costosa para el emisor; el coste garantiza que
+no se puede fingir. · *toma* — el mismo mecanismo trasladado al firmante: la consecuencia
+asumida (el nodo degrada o muere si se equivoca) es el coste que hace honesta la firma.
+· *diverge* — Zahavi explica la honestidad de señales entre organismos; este Códice usa
+la costosidad para separar al firmante-con-apuesta (carbono) del generador-sin-apuesta
+(diodo, modelo), y hace de esa apuesta la condición de IronClaw.
 
 ## Tesis: Monismo / el Único Ente (cosmopsiquismo)
 
