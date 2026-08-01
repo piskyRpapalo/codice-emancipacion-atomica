@@ -29,6 +29,11 @@ with a public triple — **SHA-256** (integrity), **Ed25519** (authorship), **Op
 (precedence) — never HMAC, which requires a shared key and cannot be verified by a third
 party.
 
+![Honest sensors in the UI — NO DATA, never a decorative value](docs/img/honest-sensors.png)
+
+*Honest sensors, enforced in the UI: when a feed has no datum, the panel says NO DATA —
+never a decorative value. The doctrine the repository publishes, made visible.*
+
 **Scaffolding fading.** Continuous learning is a condition of operation, not a suggestion:
 a node that stops producing the costly, consequence-bearing human signal that anchors the
 system decays toward isolation. The support withdraws as competence rises.
